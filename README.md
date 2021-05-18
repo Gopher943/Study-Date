@@ -33,18 +33,17 @@ python main.py
 ```
 
 # 示例导航
-* 操控SVG：[链接][control]
-* 柱状图：[链接][barchart1]
-* 柱状图，图元可交互：链接
-* 堆叠柱状图：[链接][stackbarchart]
-* Path：[链接][htmlpath]
-* 折线图，带上下浮动动画：[链接][linechart]
-* 动态气泡图：[链接][scatter1]
-* 静态主题河流：[链接][themeriver]
-* 动态主题河流与柱状图，从左到右逐渐展现流动过程，柱状图同时随主题河流发生改变：[链接][themeriverlr]
-* 世界地图与交互：[链接][mapinteract]
-* 力（Force）、节点（Node）与边（Link）：[链接][force]
-* 力跟随：[链接][force-following]
+* 行为编码:[tables]
+* 频次矩阵:[cancha]
+* 残差表:[canchabiao]
+* 二阶学习行为序列:[twotable]
+* 平均度:[PJD]
+* 平均加权度:[PJJQD]
+* 网络直径:[WLZJ]
+* 平均聚类系数:[PJJLXS]
+* 特征向量中心度:[TZXLZXD]
+* 平均路径长度:[PJLJCD]
+* 学习行为路径:[CXXLJ]
 
 # Acknowledgement
 
