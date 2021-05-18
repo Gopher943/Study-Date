@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>学习行为可视化</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>学习行为可视化</span></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <!-- <h3>General</h3> -->
+                            <ul class="nav side-menu">
+                                <li><a><i class="fa fa-home"></i> 课程 <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="index.html">《C程序设计案例教程（基础）》</a></li>
+                                        <li><a href="index2.html">《中国近代史纲要》</a></li>
+                                        <!-- <li><a href="index3.html">Dashboard3</a></li> -->
+                                    </ul>
+                                </li>
+
+
+
+
+                                <li><a><i class="fa fa-table"></i>学习行为统计<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="tables.html">行为编码</a></li>
+                                        <li><a href="cancha.html">频次矩阵</a></li>
+                                        <li><a href="canchabiao.html">残差表</a></li>
+                                        <li><a href="twotable.html">二阶学习行为序列</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu_section">
+                            <h3>数据分析结果</h3>
+                            <ul class="nav side-menu">
+
+
+                                <li><a><i class="fa fa-edit"></i> C语言程序设计 <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+
+                                        <li><a>初次分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="C1-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C1-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C1-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="C1-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="C1-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="C1-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="CXXLJ1.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>一次滤波分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="C2-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C2-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C2-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="C2-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="C2-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="C2-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="CXXLJ2.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>二次滤波分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="C3-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C3-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C3-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="C3-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="C3-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="C3-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="CXXLJ3.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                                <li><a><i class="fa fa-sitemap"></i> 中国近代史纲要 <span
+                                            class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+
+                                        <li><a>初次分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="J1-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J1-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J1-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="J1-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="J1-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="J1-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="JXXLJ1.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>一次滤波分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="J2-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J2-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J2-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="J2-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="J2-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="J2-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="JXXLJ2.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>二次滤波分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="J3-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J3-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J3-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="J3-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="J3-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="J3-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="JXXLJ3.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+
+                    <!-- /menu footer buttons -->
+                    <div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <div class="nav toggle">
+                        <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+                    <nav class="nav navbar-nav">
+
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="">
+                    <div class="page-title">
+                        <div class="title_left">
+                            <h3>学习行为统计<small></small></h3>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row" style="display: block;">
+                        <div class="col-md-6 col-sm-6  ">
+                            <div class="x_panel">
+                                <div class="x_title">
+                                    <h2>行为的描述及编码<small></small></h2>
+                                    <ul class="nav navbar-right panel_toolbox">
+                                        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                        </li>
+
+                                        <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>行为</th>
+                                                <th>模块</th>
+                                                <th>动作</th>
+                                                <th>编码</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>退出视频</td>
+                                                <td>课程学习</td>
+                                                <td>C1</td>
+                                                <td>stop_video</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>加载视频</td>
+                                                <td>课程学习</td>
+                                                <td>C2</td>
+                                                <td>load_video</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>搜素视频</td>
+                                                <td>课程学习</td>
+                                                <td>C3</td>
+                                                <td>seek_video</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>播放视频</td>
+                                                <td>课程学习</td>
+                                                <td>C4</td>
+                                                <td>play_video</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>暂停视频</td>
+                                                <td>课程学习</td>
+                                                <td>C5</td>
+                                                <td>pause_video</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>关闭课件</td>
+                                                <td>课程学习</td>
+                                                <td>C6</td>
+                                                <td>close_courseware</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>点击课件</td>
+                                                <td>课程学习</td>
+                                                <td>C7</td>
+                                                <td>click_courseware</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>问题检查-正确</td>
+                                                <td>问题</td>
+                                                <td>P1</td>
+                                                <td>problem_check_correct</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>被提问</td>
+                                                <td>问题</td>
+                                                <td>P2</td>
+                                                <td>problem_get</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>问题检查-错误</td>
+                                                <td>问题</td>
+                                                <td>P4</td>
+                                                <td>problem_check_incorrect</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>记录错题</td>
+                                                <td>问题</td>
+                                                <td>P5</td>
+                                                <td>problem_save</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>记录检查</td>
+                                                <td>问题</td>
+                                                <td>P6</td>
+                                                <td>problem_check</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>创建论坛</td>
+                                                <td>论坛</td>
+                                                <td>F1</td>
+                                                <td>create_thread</td>
+
+                                            </tr>
+                                            <tr>
+                                                <td>关闭论坛</td>
+                                                <td>论坛</td>
+                                                <td>F2</td>
+                                                <td>close_forum</td>
+                                            </tr>
+                                            <tr>
+                                                <td>创建论坛</td>
+                                                <td>论坛</td>
+                                                <td>F3</td>
+                                                <td>click_forum</td>
+                                            </tr>
+                                            <tr>
+                                                <td>点击信息</td>
+                                                <td>关于</td>
+                                                <td>A1</td>
+                                                <td>click_info</td>
+                                            </tr>
+                                            <tr>
+                                                <td>点击关于</td>
+                                                <td>关于</td>
+                                                <td>A2</td>
+                                                <td>click_about</td>
+                                            </tr>
+                                            <tr>
+                                                <td>点击进度</td>
+                                                <td>关于</td>
+                                                <td>A3</td>
+                                                <td>click_progress</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6  ">
+                            <div class="x_panel">
+                                <div class="x_title">
+                                    <h2>课程单一学习行为频次<small></small></h2>
+                                    <ul class="nav navbar-right panel_toolbox">
+                                        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                        </li>
+
+                                        <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th>行为</th>
+                                                <th>模块</th>
+                                                <th>编码</th>
+                                                <th>《C程序设计案例教程（基础）》</th>
+                                                <th>《中国近代史纲要》</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>退出视频</td>
+                                                <td>课程学习</td>
+                                                <td>C1</td>
+                                                <td>29,080</td>
+                                                <td>336,679</td>
+                                            </tr>
+                                            <tr>
+                                                <td>加载视频</td>
+                                                <td>课程学习</td>
+                                                <td>C2</td>
+                                                <td>22,069</td>
+                                                <td>168,235</td>
+                                            </tr>
+                                            <tr>
+                                                <td>搜素视频</td>
+                                                <td>课程学习</td>
+                                                <td>C3</td>
+                                                <td>29,787</td>
+                                                <td>45,766</td>
+                                            </tr>
+                                            <tr>
+                                                <td>播放视频</td>
+                                                <td>课程学习</td>
+                                                <td>C4</td>
+                                                <td>27,897</td>
+                                                <td>159,613</td>
+                                            </tr>
+                                            <tr>
+                                                <td>暂停视频</td>
+                                                <td>课程学习</td>
+                                                <td>C5</td>
+                                                <td>50,425</td>
+                                                <td>312,103</td>
+                                            </tr>
+                                            <tr>
+                                                <td>关闭课件</td>
+                                                <td>课程学习</td>
+                                                <td>C6</td>
+                                                <td>11,485</td>
+                                                <td>198,984</td>
+                                            </tr>
+                                            <tr>
+                                                <td>点击课件</td>
+                                                <td>课程学习</td>
+                                                <td>C7</td>
+                                                <td>27,003</td>
+                                                <td>474,981</td>
+                                            </tr>
+                                            <tr>
+                                                <td>问题检查-正确</td>
+                                                <td>问题</td>
+                                                <td>P1</td>
+                                                <td>21,041</td>
+                                                <td>65,531</td>
+                                            </tr>
+                                            <tr>
+                                                <td>被提问</td>
+                                                <td>问题</td>
+                                                <td>P2</td>
+                                                <td>78,664</td>
+                                                <td>236,547</td>
+                                            </tr>
+                                            <tr>
+                                                <td>问题检查-错误</td>
+                                                <td>问题</td>
+                                                <td>P4</td>
+                                                <td>8,833</td>
+                                                <td>26,508</td>
+                                            </tr>
+                                            <tr>
+                                                <td>记录错题</td>
+                                                <td>问题</td>
+                                                <td>P5</td>
+                                                <td>5,193</td>
+                                                <td>45,227</td>
+                                            </tr>
+                                            <tr>
+                                                <td>记录检查</td>
+                                                <td>问题</td>
+                                                <td>P6</td>
+                                                <td>23,795</td>
+                                                <td>35,640</td>
+                                            </tr>
+                                            <tr>
+                                                <td>创建论坛</td>
+                                                <td>论坛</td>
+                                                <td>F1</td>
+                                                <td>2</td>
+                                                <td>296</td>
+                                            </tr>
+                                            <tr>
+                                                <td>关闭论坛</td>
+                                                <td>论坛</td>
+                                                <td>F2</td>
+                                                <td>0</td>
+                                                <td>16,964</td>
+                                            </tr>
+                                            <tr>
+                                                <td>创建论坛</td>
+                                                <td>论坛</td>
+                                                <td>F3</td>
+                                                <td>354</td>
+                                                <td>3,508</td>
+                                            </tr>
+                                            <tr>
+                                                <td>点击信息</td>
+                                                <td>关于</td>
+                                                <td>A1</td>
+                                                <td>4,555</td>
+                                                <td>67,476</td>
+                                            </tr>
+                                            <tr>
+                                                <td>点击关于</td>
+                                                <td>关于</td>
+                                                <td>A2</td>
+                                                <td>10,534</td>
+                                                <td>73,669</td>
+                                            </tr>
+                                            <tr>
+                                                <td>点击进度</td>
+                                                <td>关于</td>
+                                                <td>A3</td>
+                                                <td>711</td>
+                                                <td>19,267</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+            <!-- /page content -->
+
+            <!-- footer content -->
+            <footer>
+                <div class="pull-right">
+                    Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- iCheck -->
+    <script src="../vendors/iCheck/icheck.min.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+</body>
+
+</html>

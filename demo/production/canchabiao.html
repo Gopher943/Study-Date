@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>学习行为可视化</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>学习行为可视化</span></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- menu profile quick info -->
+
+                    <!-- /menu profile quick info -->
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <!-- <h3>General</h3> -->
+                            <ul class="nav side-menu">
+                                <li><a><i class="fa fa-home"></i> 课程 <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="index.html">《C程序设计案例教程（基础）》</a></li>
+                                        <li><a href="index2.html">《中国近代史纲要》</a></li>
+                                        <!-- <li><a href="index3.html">Dashboard3</a></li> -->
+                                    </ul>
+                                </li>
+
+
+
+
+                                <li><a><i class="fa fa-table"></i>学习行为统计<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="tables.html">行为编码</a></li>
+                                        <li><a href="cancha.html">频次矩阵</a></li>
+                                        <li><a href="canchabiao.html">残差表</a></li>
+                                        <li><a href="twotable.html">二阶学习行为序列</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu_section">
+                            <h3>数据分析结果</h3>
+                            <ul class="nav side-menu">
+
+
+                                <li><a><i class="fa fa-edit"></i> C语言程序设计 <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+
+                                        <li><a>初次分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="C1-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C1-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C1-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="C1-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="C1-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="C1-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="CXXLJ1.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>一次滤波分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="C2-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C2-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C2-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="C2-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="C2-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="C2-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="CXXLJ2.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>二次滤波分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="C3-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C3-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C3-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="C3-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="C3-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="C3-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="CXXLJ3.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                                <li><a><i class="fa fa-sitemap"></i> 中国近代史纲要 <span
+                                            class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+
+                                        <li><a>初次分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="J1-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J1-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J1-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="J1-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="J1-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="J1-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="JXXLJ1.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>一次滤波分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="J2-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J2-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J2-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="J2-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="J2-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="J2-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="JXXLJ2.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>二次滤波分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="J3-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J3-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J3-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="J3-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="J3-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="J3-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="JXXLJ3.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+
+                    <!-- /menu footer buttons -->
+                    <div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <div class="nav toggle">
+                        <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+                    <nav class="nav navbar-nav">
+
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="">
+                    <div class="page-title">
+                        <div class="title_left">
+                            <h3>学习行为统计<small></small></h3>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row" style="display: block;">
+                        <div class="clearfix"></div>
+                        <div class="col-md-12 col-sm-12  ">
+                            <div class="x_panel">
+                                <div class="x_title">
+                                    <h2>《C程序设计案例教程（基础）》<small>调整后的残差表</small></h2>
+                                    <ul class="nav navbar-right panel_toolbox">
+                                        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                        </li>
+                                        <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped jambo_table bulk_action">
+                                            <thead>
+                                                <tr class="headings">
+                                                    <th>N</th>
+                                                    <th class="column-title">C1</th>
+                                                    <th class="column-title">C2</th>
+                                                    <th class="column-title">C3</th>
+                                                    <th class="column-title">C4</th>
+                                                    <th class="column-title">C5</th>
+                                                    <th class="column-title">C6</th>
+                                                    <th class="column-title">C7</th>
+                                                    <th class="column-title">P1</th>
+                                                    <th class="column-title">P2</th>
+                                                    <th class="column-title">P4</th>
+                                                    <th class="column-title">P5</th>
+                                                    <th class="column-title">P6</th>
+                                                    <th class="column-title">F1</th>
+                                                    <th class="column-title">F2</th>
+                                                    <th class="column-title">F3</th>
+                                                    <th class="column-title">A1</th>
+                                                    <th class="column-title">A2</th>
+                                                    <th class="column-title">A3</th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr class="even pointer">
+                                                    <td> C1 </td>
+                                                    <td><b> 464.52 </b></td>
+                                                    <td> -44.83 </td>
+                                                    <td> -49.58 </td>
+                                                    <td> -38.67 </td>
+                                                    <td> -42.7 </td>
+                                                    <td> -26.3 </td>
+                                                    <td> -30.72 </td>
+                                                    <td> -43.35 </td>
+                                                    <td> -84.46 </td>
+                                                    <td> -28.29 </td>
+                                                    <td> -19.92 </td>
+                                                    <td> -25.32 </td>
+                                                    <td> -0.43 </td>
+                                                    <td> 0 </td>
+                                                    <td> -5.68 </td>
+                                                    <td> -20.06 </td>
+                                                    <td> -24.61 </td>
+                                                    <td> -7.86 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> C2 </td>
+                                                    <td> -44.44 </td>
+                                                    <td> 44.44 </td>
+                                                    <td> -33.3 </td>
+                                                    <td><b> 178.98 </b></td>
+                                                    <td> -53.78 </td>
+                                                    <td> -22.92 </td>
+                                                    <td><b> 13.7 </b></td>
+                                                    <td> -35.85 </td>
+                                                    <td> -54.45 </td>
+                                                    <td> -23.72 </td>
+                                                    <td> -15.91 </td>
+                                                    <td><b> 18.83 </b></td>
+                                                    <td> -0.37 </td>
+                                                    <td> 0 </td>
+                                                    <td> -4.44 </td>
+                                                    <td> -12.94 </td>
+                                                    <td><b> 100.47 </b></td>
+                                                    <td> -2.66 </td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> C3 </td>
+                                                    <td> -48.25 </td>
+                                                    <td> -44.07 </td>
+                                                    <td><b> 311.4 </b></td>
+                                                    <td><b> 46.48 </b></td>
+                                                    <td><b> 27.78 </b></td>
+                                                    <td> -32.72 </td>
+                                                    <td> -32.69 </td>
+                                                    <td> -45.04 </td>
+                                                    <td> -88.73 </td>
+                                                    <td> -28.72 </td>
+                                                    <td> -20.94 </td>
+                                                    <td> -36.53 </td>
+                                                    <td> -0.43 </td>
+                                                    <td> 0 </td>
+                                                    <td> -5.76 </td>
+                                                    <td> -20.5 </td>
+                                                    <td><b> -26.17 </b></td>
+                                                    <td> -7.84 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> C4 </td>
+                                                    <td> -24.32 </td>
+                                                    <td> -29.64 </td>
+                                                    <td><b> 118.35 </b></td>
+                                                    <td> -32.18 </td>
+                                                    <td><b> 165.38 </b></td>
+                                                    <td> -29.95 </td>
+                                                    <td> -20.62 </td>
+                                                    <td> -43.03 </td>
+                                                    <td> -82.44 </td>
+                                                    <td> -27.75 </td>
+                                                    <td> -16.24 </td>
+                                                    <td> -4.11 </td>
+                                                    <td> -0.42 </td>
+                                                    <td> 0 </td>
+                                                    <td> -5.36 </td>
+                                                    <td> -19.38 </td>
+                                                    <td> -21.44 </td>
+                                                    <td> -3.22 </td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> C5 </td>
+                                                    <td> -8.58 </td>
+                                                    <td> -55.54 </td>
+                                                    <td> -9.08 </td>
+                                                    <td><b> 136.31 </b></td>
+                                                    <td><b> 87.51 </b></td>
+                                                    <td><b> 158.63 </b></td>
+                                                    <td><b> 4.59 </b></td>
+                                                    <td> -59.87 </td>
+                                                    <td> -118.09 </td>
+                                                    <td> -38.34 </td>
+                                                    <td> -26.97 </td>
+                                                    <td> -43.3 </td>
+                                                    <td> -0.58 </td>
+                                                    <td> 0 </td>
+                                                    <td> -7.21 </td>
+                                                    <td><b> 40.61 </b></td>
+                                                    <td><b> 6.14 </b></td>
+                                                    <td> -9.06 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> C6 </td>
+                                                    <td> -30.97 </td>
+                                                    <td> -24.87 </td>
+                                                    <td> -31.2 </td>
+                                                    <td> -28.25 </td>
+                                                    <td> -41.5 </td>
+                                                    <td> -16.45 </td>
+                                                    <td><b> 281.12 </b></td>
+                                                    <td> -26.13 </td>
+                                                    <td> -31.02 </td>
+                                                    <td> -16.57 </td>
+                                                    <td> -12.61 </td>
+                                                    <td> -27.22 </td>
+                                                    <td> -0.25 </td>
+                                                    <td> 0 </td>
+                                                    <td><b> 8.83 </b></td>
+                                                    <td><b> 6.69 </b></td>
+                                                    <td><b> 11.17 </b></td>
+                                                    <td><b> 28.54 </b></td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> C7 </td>
+                                                    <td> -51.27 </td>
+                                                    <td> -23.35 </td>
+                                                    <td> -51.81 </td>
+                                                    <td> -48.47 </td>
+                                                    <td><b> 116.27 </b></td>
+                                                    <td><b> 86.37 </b></td>
+                                                    <td><b> 15.09 </b></td>
+                                                    <td> -43.15 </td>
+                                                    <td><b> 53.43 </b></td>
+                                                    <td> -27.45 </td>
+                                                    <td> -20.96 </td>
+                                                    <td> -45.9 </td>
+                                                    <td> -0.41 </td>
+                                                    <td> 0 </td>
+                                                    <td> -5.05 </td>
+                                                    <td> -18.11 </td>
+                                                    <td> -25.59 </td>
+                                                    <td> -5.7 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> P1 </td>
+                                                    <td> -38.11 </td>
+                                                    <td> -33.24 </td>
+                                                    <td> -34.92 </td>
+                                                    <td> -32.48 </td>
+                                                    <td> -48.89 </td>
+                                                    <td> -26.36 </td>
+                                                    <td><b> 3.64 </b></td>
+                                                    <td> -21.12 </td>
+                                                    <td><b> 15.3 </b></td>
+                                                    <td> -15.07 </td>
+                                                    <td> -3.01 </td>
+                                                    <td><b> 257.88 </b></td>
+                                                    <td> -0.36 </td>
+                                                    <td> 0 </td>
+                                                    <td> -4.76 </td>
+                                                    <td> -16.65 </td>
+                                                    <td> -22.8 </td>
+                                                    <td> 0.28 </td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> P2 </td>
+                                                    <td> -95.69 </td>
+                                                    <td><b> 145.97 </b></td>
+                                                    <td> -95.93 </td>
+                                                    <td> -81.82 </td>
+                                                    <td> -129.2 </td>
+                                                    <td> -55.9 </td>
+                                                    <td> -58.73 </td>
+                                                    <td> -19.2 </td>
+                                                    <td><b> 344.08 </b></td>
+                                                    <td> -2.7 </td>
+                                                    <td><b> 23.4 </b></td>
+                                                    <td> -70.71 </td>
+                                                    <td> -0.76 </td>
+                                                    <td> 0 </td>
+                                                    <td> -9.9 </td>
+                                                    <td> -35.82 </td>
+                                                    <td> -49.19 </td>
+                                                    <td> -12.57 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> P4 </td>
+                                                    <td> -26.5 </td>
+                                                    <td> -22.35 </td>
+                                                    <td> -25.04 </td>
+                                                    <td> -21.49 </td>
+                                                    <td> -34.13 </td>
+                                                    <td> -16.61 </td>
+                                                    <td> -0.48 </td>
+                                                    <td> -13.54 </td>
+                                                    <td><b> 8.48 </b></td>
+                                                    <td> 0.16 </td>
+                                                    <td><b> 7.78 </b></td>
+                                                    <td><b> 170.9 </b></td>
+                                                    <td> -0.23 </td>
+                                                    <td> 0 </td>
+                                                    <td><b> -3.03 </b></td>
+                                                    <td> -10.59 </td>
+                                                    <td> -14.5 </td>
+                                                    <td> -3.78 </td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> P5 </td>
+                                                    <td> -21 </td>
+                                                    <td> -18.24 </td>
+                                                    <td> -21.33 </td>
+                                                    <td> -19.92 </td>
+                                                    <td> -27.95 </td>
+                                                    <td> -12.92 </td>
+                                                    <td> -18.96 </td>
+                                                    <td> -7.34 </td>
+                                                    <td><b> 17.95 </b></td>
+                                                    <td> -2.48 </td>
+                                                    <td><b> 293.54 </b></td>
+                                                    <td><b> 2.79 </b></td>
+                                                    <td> -0.17 </td>
+                                                    <td> 0 </td>
+                                                    <td> -2.25 </td>
+                                                    <td> -8 </td>
+                                                    <td> -11.03 </td>
+                                                    <td> -3.16 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> P6 </td>
+                                                    <td> -47.18 </td>
+                                                    <td> -40.72 </td>
+                                                    <td> -48.08 </td>
+                                                    <td> -46.3 </td>
+                                                    <td> -64.43 </td>
+                                                    <td> -28.44 </td>
+                                                    <td> -42.73 </td>
+                                                    <td><b> 414.73 </b></td>
+                                                    <td> -82.89 </td>
+                                                    <td><b> 245.65 </b></td>
+                                                    <td> -18.82 </td>
+                                                    <td> -24.45 </td>
+                                                    <td> -0.38 </td>
+                                                    <td> 0 </td>
+                                                    <td> -5.1 </td>
+                                                    <td> -18.15 </td>
+                                                    <td> -24.93 </td>
+                                                    <td> -6.88 </td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> F1 </td>
+                                                    <td> -0.43 </td>
+                                                    <td> -0.37 </td>
+                                                    <td> -0.43 </td>
+                                                    <td> -0.42 </td>
+                                                    <td> -0.58 </td>
+                                                    <td> -0.26 </td>
+                                                    <td> -0.41 </td>
+                                                    <td> -0.36 </td>
+                                                    <td> -0.76 </td>
+                                                    <td> -0.23 </td>
+                                                    <td> -0.17 </td>
+                                                    <td> -0.38 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td><b> 44.32 </b></td>
+                                                    <td> -0.16 </td>
+                                                    <td> -0.22 </td>
+                                                    <td> -0.06 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> F2 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> F3 </td>
+                                                    <td> -5.55 </td>
+                                                    <td> -4.78 </td>
+                                                    <td> -5.43 </td>
+                                                    <td> -5.02 </td>
+                                                    <td> -7.57 </td>
+                                                    <td> -3.4 </td>
+                                                    <td><b> 4.13 </b></td>
+                                                    <td> -4.67 </td>
+                                                    <td> -9.37 </td>
+                                                    <td> -2.97 </td>
+                                                    <td> -2.26 </td>
+                                                    <td> -4.55 </td>
+                                                    <td><b> 22.66 </b></td>
+                                                    <td> 0 </td>
+                                                    <td><b> 357.89 </b></td>
+                                                    <td><b> 17.8 </b></td>
+                                                    <td> -0.08 </td>
+                                                    <td><b> 27.09 </b></td>
+
+                                                </tr>
+                                                <tr class="old pointer">
+                                                    <td> A1 </td>
+                                                    <td> -19.89 </td>
+                                                    <td> -16.77 </td>
+                                                    <td> -20.26 </td>
+                                                    <td> -19.19 </td>
+                                                    <td> -27.17 </td>
+                                                    <td> -10.34 </td>
+                                                    <td><b> 63 </b></td>
+                                                    <td> -16.73 </td>
+                                                    <td> -32.97 </td>
+                                                    <td> -10.69 </td>
+                                                    <td> -8.15 </td>
+                                                    <td> -17.57 </td>
+                                                    <td> -0.16 </td>
+                                                    <td> 0 </td>
+                                                    <td><b> 38.65 </b></td>
+                                                    <td><b> 324.63 </b></td>
+                                                    <td><b> 7.6 </b></td>
+                                                    <td><b> 25.67 </b></td>
+
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> A2 </td>
+                                                    <td> -31.3 </td>
+                                                    <td><b> 99.6 </b></td>
+                                                    <td> -31.68 </td>
+                                                    <td> -29.62 </td>
+                                                    <td><b> 69.01 </b></td>
+                                                    <td><b> -19.08 </td>
+                                                    <td> -28.93 </td>
+                                                    <td> -26.29 </td>
+                                                    <td> -55.19 </td>
+                                                    <td> -16.73 </td>
+                                                    <td> -12.75 </td>
+                                                    <td> -28.08 </td>
+                                                    <td> -0.25 </td>
+                                                    <td> 0 </td>
+                                                    <td> -3.31 </td>
+                                                    <td> -9.12 </td>
+                                                    <td><b> 194.63 </b></td>
+                                                    <td> -4.44 </td>
+
+                                                </tr>
+                                                <tr class="old pointer">
+                                                    <td> A3 </td>
+                                                    <td> -7.22 </td>
+                                                    <td> -5.74 </td>
+                                                    <td> -6.63 </td>
+                                                    <td> -4.59 </td>
+                                                    <td> -7.84 </td>
+                                                    <td> -2.8 </td>
+                                                    <td><b> 19.36 </b></td>
+                                                    <td> -6.21 </td>
+                                                    <td> -12.27 </td>
+                                                    <td> -4.16 </td>
+                                                    <td> -2.85 </td>
+                                                    <td> -1.74 </td>
+                                                    <td><b> 16.15 </b></td>
+                                                    <td> 0 </td>
+                                                    <td><b> 8.93 </b></td>
+                                                    <td><b> 7.12 </b></td>
+                                                    <td><b> 3.75 </b></td>
+                                                    <td><b> 244.2 </b></td>
+
+                                                </tr>
+
+
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="clearfix"></div>
+                        <div class="col-md-12 col-sm-12  ">
+                            <div class="x_panel">
+                                <div class="x_title">
+                                    <h2>《中国近代史纲要》<small>调整后的残差表</small></h2>
+                                    <ul class="nav navbar-right panel_toolbox">
+                                        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                        </li>
+                                        <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped jambo_table bulk_action">
+                                            <thead>
+                                                <tr class="headings">
+                                                    <th>N</th>
+                                                    <th class="column-title">C1</th>
+                                                    <th class="column-title">C2</th>
+                                                    <th class="column-title">C3</th>
+                                                    <th class="column-title">C4</th>
+                                                    <th class="column-title">C5</th>
+                                                    <th class="column-title">C6</th>
+                                                    <th class="column-title">C7</th>
+                                                    <th class="column-title">P1</th>
+                                                    <th class="column-title">P2</th>
+                                                    <th class="column-title">P4</th>
+                                                    <th class="column-title">P5</th>
+                                                    <th class="column-title">P6</th>
+                                                    <th class="column-title">F1</th>
+                                                    <th class="column-title">F2</th>
+                                                    <th class="column-title">F3</th>
+                                                    <th class="column-title">A1</th>
+                                                    <th class="column-title">A2</th>
+                                                    <th class="column-title">A3</th>
+                                                </tr>
+                                            </thead>
+
+                                            <tbody>
+                                                <tr class="even pointer">
+                                                    <td> C1 </td>
+                                                    <td><b> 1003.49 </b></td>
+                                                    <td> -175.64 </td>
+                                                    <td> -86.74 </td>
+                                                    <td> -162.44 </td>
+                                                    <td> -76.05 </td>
+                                                    <td> -183.5 </td>
+                                                    <td> -70.43 </td>
+                                                    <td> -108.78 </td>
+                                                    <td> -202.26 </td>
+                                                    <td> -68.41 </td>
+                                                    <td> -89.33 </td>
+                                                    <td> -75.63 </td>
+                                                    <td> -6.71 </td>
+                                                    <td> -53.69 </td>
+                                                    <td> -22.61 </td>
+                                                    <td> -109.16 </td>
+                                                    <td> -95.26 </td>
+                                                    <td> -57.91 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> C2 </td>
+                                                    <td> -165.17 </td>
+                                                    <td> -0.39 </td>
+                                                    <td> -33.1 </td>
+                                                    <td><b> 860.64 </b></td>
+                                                    <td> -132.74 </td>
+                                                    <td> -122.39 </td>
+                                                    <td> -97.46 </td>
+                                                    <td> -73.52 </td>
+                                                    <td> -136.58 </td>
+                                                    <td> -46.26 </td>
+                                                    <td> -60.4 </td>
+                                                    <td> -50.45 </td>
+                                                    <td> -4.87 </td>
+                                                    <td> -35.06 </td>
+                                                    <td> -16.04 </td>
+                                                    <td> -49 </td>
+                                                    <td><b> 315.96 </b></td>
+                                                    <td> -37.85 </td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> C3 </td>
+                                                    <td> -77.01 </td>
+                                                    <td> -55.18 </td>
+                                                    <td><b> 707.72 </b></td>
+                                                    <td><b> 126.41 </b></td>
+                                                    <td><b> 50.68 </b></td>
+                                                    <td> -66.88 </td>
+                                                    <td> -90.89 </td>
+                                                    <td> -37.39 </td>
+                                                    <td> -69.49 </td>
+                                                    <td> -23.51 </td>
+                                                    <td> -30.36 </td>
+                                                    <td> -26.2 </td>
+                                                    <td> -2.47 </td>
+                                                    <td> -18.74 </td>
+                                                    <td> -8.39 </td>
+                                                    <td> -37.39 </td>
+                                                    <td> -34.08 </td>
+                                                    <td> -19.84 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> C4 </td>
+                                                    <td><b> 20.77 </b></td>
+                                                    <td><b> 6.99 </b></td>
+                                                    <td><b> 175.01 </b></td>
+                                                    <td> -66.87 </td>
+                                                    <td><b> 476.58 </b></td>
+                                                    <td> -124.4 </td>
+                                                    <td> -124.81 </td>
+                                                    <td> -71.24 </td>
+                                                    <td> -132.45 </td>
+                                                    <td> -44.81 </td>
+                                                    <td> -57.19 </td>
+                                                    <td> -47.58 </td>
+                                                    <td> -4.28 </td>
+                                                    <td> -32.46 </td>
+                                                    <td> -14.28 </td>
+                                                    <td> -69.89 </td>
+                                                    <td> -48.93 </td>
+                                                    <td> -35.75 </td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> C5 </td>
+                                                    <td><b> 87.58 </b></td>
+                                                    <td> -144.55 </td>
+                                                    <td><b> 32.6 </b></td>
+                                                    <td><b> 109.97 </b></td>
+                                                    <td> -221.24 </td>
+                                                    <td><b> 531.73 </b></td>
+                                                    <td> -18.6 </td>
+                                                    <td> -103.76 </td>
+                                                    <td> -192.36 </td>
+                                                    <td> -65.21 </td>
+                                                    <td> -84.81 </td>
+                                                    <td> -72.73 </td>
+                                                    <td> -6.36 </td>
+                                                    <td> -49.32 </td>
+                                                    <td> -22.04 </td>
+                                                    <td><b> 159.81 </b></td>
+                                                    <td> -54.69 </td>
+                                                    <td> -53.67 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> C6 </td>
+                                                    <td> -185.83 </td>
+                                                    <td> -116.15 </td>
+                                                    <td> -64.91 </td>
+                                                    <td> -117.64 </td>
+                                                    <td> -171.93 </td>
+                                                    <td> -127.62 </td>
+                                                    <td><b> 717.38 </b></td>
+                                                    <td> -78.22 </td>
+                                                    <td> -101.9 </td>
+                                                    <td> -49.15 </td>
+                                                    <td> -64 </td>
+                                                    <td> -52.44 </td>
+                                                    <td> -4.77 </td>
+                                                    <td> 24.24 </td>
+                                                    <td> -16.43 </td>
+                                                    <td> -43.46 </td>
+                                                    <td><b> 4.53 </b></td>
+                                                    <td> 101.5 </td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> C7 </td>
+                                                    <td> -324.2 </td>
+                                                    <td> 469.07 </td>
+                                                    <td> -110.89 </td>
+                                                    <td> -177.93 </td>
+                                                    <td><b> 362.79 </b></td>
+                                                    <td><b> 256.22 </b></td>
+                                                    <td> -60.66 </td>
+                                                    <td> -133.62 </td>
+                                                    <td> -37.61 </td>
+                                                    <td> -84.12 </td>
+                                                    <td> -107.03 </td>
+                                                    <td> -75.07 </td>
+                                                    <td> -7.73 </td>
+                                                    <td> -59.97 </td>
+                                                    <td> -30.08 </td>
+                                                    <td> -131.63 </td>
+                                                    <td> -119.01 </td>
+                                                    <td> -60.74 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+
+                                                    <td> P1 </td>
+                                                    <td> -100.57 </td>
+                                                    <td> -68.41 </td>
+                                                    <td> -34.59 </td>
+                                                    <td> -66.14 </td>
+                                                    <td> -94.87 </td>
+                                                    <td> -73.1 </td>
+                                                    <td> -0.94 </td>
+                                                    <td><b> 336.74 </b></td>
+                                                    <td><b> 65.28 </b></td>
+                                                    <td><b> 139.21 </b></td>
+                                                    <td><b> 70.38 </b></td>
+                                                    <td><b> 369.8 </b></td>
+                                                    <td><b> 3.19 </b></td>
+                                                    <td> -20.05 </td>
+                                                    <td> -6.56 </td>
+                                                    <td> -41.56 </td>
+                                                    <td> -36.28 </td>
+                                                    <td> -21.06 </td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> P2 </td>
+                                                    <td> -209.47 </td>
+                                                    <td> -136.84 </td>
+                                                    <td> -71.69 </td>
+                                                    <td> -137.23 </td>
+                                                    <td> -199.13 </td>
+                                                    <td> -152.47 </td>
+                                                    <td> -122.3 </td>
+                                                    <td><b> 185.12 </b></td>
+                                                    <td><b> 892.62 </b></td>
+                                                    <td><b> 99.47 </b></td>
+                                                    <td><b> 209.38 </b></td>
+                                                    <td><b> 179.19 </b></td>
+                                                    <td> -2.6 </td>
+                                                    <td> -42.08 </td>
+                                                    <td> -18.12 </td>
+                                                    <td> -86.18 </td>
+                                                    <td> -76.66 </td>
+                                                    <td> -44.49 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> P4 </td>
+                                                    <td> -63.6 </td>
+                                                    <td> -43.26 </td>
+                                                    <td> -21.91 </td>
+                                                    <td> -41.88 </td>
+                                                    <td> -60.4 </td>
+                                                    <td> -45.2 </td>
+                                                    <td> 1.42 </td>
+                                                    <td><b> 64.54 </b></td>
+                                                    <td><b> 72.4 </b></td>
+                                                    <td><b> 250.54 </b></td>
+                                                    <td><b> 78.47 </b></td>
+                                                    <td><b> 173.92 </b></td>
+                                                    <td><b> 7.53 </b></td>
+                                                    <td> -12.73 </td>
+                                                    <td> -4.47 </td>
+                                                    <td> -26.22 </td>
+                                                    <td> -22.38 </td>
+                                                    <td> -13.5 </td>
+
+
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> P5 </td>
+                                                    <td> -85.82 </td>
+                                                    <td> -58.19 </td>
+                                                    <td> -29.21 </td>
+                                                    <td> -55.97 </td>
+                                                    <td> -81.5 </td>
+                                                    <td> -63.7 </td>
+                                                    <td> -94.97 </td>
+                                                    <td><b> 21.5 </b></td>
+                                                    <td><b> 159.75 </b></td>
+                                                    <td><b> 24.32 </b></td>
+                                                    <td><b> 711.54 </b></td>
+                                                    <td><b> 93.04 </b></td>
+                                                    <td> -1.91 </td>
+                                                    <td> -17.15 </td>
+                                                    <td> -7.67 </td>
+                                                    <td> -35.47 </td>
+                                                    <td> -32.59 </td>
+                                                    <td> -18.85 </td>
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> P6 </td>
+                                                    <td> -79.85 </td>
+                                                    <td> -53.97 </td>
+                                                    <td> -27.44 </td>
+                                                    <td> -52.59 </td>
+                                                    <td> -76.3 </td>
+                                                    <td> -57.34 </td>
+                                                    <td> -92.31 </td>
+                                                    <td><b> 770.26 </b></td>
+                                                    <td> -60.6 </td>
+                                                    <td> 435.74 </b></td>
+                                                    <td> -24.95 </td>
+                                                    <td> -8.18 </td>
+                                                    <td> -1.71 </td>
+                                                    <td> -16.42 </td>
+                                                    <td> -7.48 </td>
+                                                    <td> -32.96 </td>
+                                                    <td> -30.16 </td>
+                                                    <td> -17.09 </td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> F1 </td>
+                                                    <td> -7.13 </td>
+                                                    <td> -4.83 </td>
+                                                    <td> -2.45 </td>
+                                                    <td> -4.24 </td>
+                                                    <td> -6.48 </td>
+                                                    <td> -5.09 </td>
+                                                    <td> -1.19 </td>
+                                                    <td> -2.93 </td>
+                                                    <td> -5.25 </td>
+                                                    <td> -1.85 </td>
+                                                    <td> -1.59 </td>
+                                                    <td> -2.15 </td>
+                                                    <td><b> 123.52 </b></td>
+                                                    <td> 100.72 </td>
+                                                    <td><b> 69.89 </b></td>
+                                                    <td> -1.91 </td>
+                                                    <td> -1.29 </td>
+                                                    <td> -1.58 </td>
+
+
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> F2 </td>
+                                                    <td> -50.95 </td>
+                                                    <td> -34.9 </td>
+                                                    <td> -17.54 </td>
+                                                    <td> -32.9 </td>
+                                                    <td> -46.37 </td>
+                                                    <td> -38 </td>
+                                                    <td> -18.26 </td>
+                                                    <td> -21.51 </td>
+                                                    <td> -39.49 </td>
+                                                    <td> -13.57 </td>
+                                                    <td> -17.38 </td>
+                                                    <td> -13.59 </td>
+                                                    <td><b> 101.7 </b></td>
+                                                    <td> 782.53 </td>
+                                                    <td><b> 338.04 </b></td>
+                                                    <td><b> 18.51 </b></td>
+                                                    <td><b> 32.23 </b></td>
+                                                    <td><b> 36.42 </b></td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> F3 </td>
+                                                    <td> -24.1 </td>
+                                                    <td> -16.58 </td>
+                                                    <td> -8.08 </td>
+                                                    <td> -15.91 </td>
+                                                    <td> -22.42 </td>
+                                                    <td> -17.89 </td>
+                                                    <td> -24.47 </td>
+                                                    <td> -10.11 </td>
+                                                    <td> -18.67 </td>
+                                                    <td> -6.36 </td>
+                                                    <td> -8.24 </td>
+                                                    <td> -6.86 </td>
+                                                    <td><b> 78.74 </b></td>
+                                                    <td> 314.49 </td>
+                                                    <td><b> 657.03 </b></td>
+                                                    <td> -8.67 </td>
+                                                    <td> -6.09 </td>
+                                                    <td><b> -5.06 </b></td>
+
+                                                </tr>
+                                                <tr class="old pointer">
+                                                    <td> A1 </td>
+                                                    <td> -109.59 </td>
+                                                    <td> -73.48 </td>
+                                                    <td> -37.63 </td>
+                                                    <td> -71.46 </td>
+                                                    <td> -104.36 </td>
+                                                    <td> -80.15 </td>
+                                                    <td><b> 87.59 </b></td>
+                                                    <td> -45.14 </td>
+                                                    <td> -83.53 </td>
+                                                    <td> -28.37 </td>
+                                                    <td> -37.32 </td>
+                                                    <td> -32.45 </td>
+                                                    <td> -2.65 </td>
+                                                    <td> 100.88 </td>
+                                                    <td> -9.59 </td>
+                                                    <td> 793.62 </b></td>
+                                                    <td> -2.24 </td>
+                                                    <td><b> 81.74 </b></td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> A2 </td>
+                                                    <td> -115.94 </td>
+                                                    <td><b> 277.27 </b></td>
+                                                    <td> -39.66 </td>
+                                                    <td> -75.68 </td>
+                                                    <td><b> 205.56 </b></td>
+                                                    <td> -85.99 </td>
+                                                    <td> -141.06 </td>
+                                                    <td> -47.65 </td>
+                                                    <td> -88.52 </td>
+                                                    <td> -30.04 </td>
+                                                    <td> -39.41 </td>
+                                                    <td> -34.78 </td>
+                                                    <td> -2.83 </td>
+                                                    <td> -23.76 </td>
+                                                    <td> -10.85 </td>
+                                                    <td> -40.01 </td>
+                                                    <td><b> 393.96 </b></td>
+                                                    <td> -25.38 </td>
+
+
+                                                </tr>
+                                                <td> A3 </td>
+                                                <td> -53.81 </td>
+                                                <td> -35.99 </td>
+                                                <td> -18.51 </td>
+                                                <td> -34.63 </td>
+                                                <td> -49.45 </td>
+                                                <td> -39.03 </td>
+                                                <td><b> 18.52 </b></td>
+                                                <td> -22.44 </td>
+                                                <td> -38.36 </td>
+                                                <td> -14.03 </td>
+                                                <td> -17.96 </td>
+                                                <td> -13.92 </td>
+                                                <td> -1.5 </td>
+                                                <td> 53.54 </td>
+                                                <td> -3.38 </td>
+                                                <td> 12.33 </b></td>
+                                                <td><b> 15.6 </b></td>
+                                                <td><b> 788.37 </b></td>
+
+                                                <tr class="old pointer">
+
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /page content -->
+            <!-- footer content -->
+            <footer>
+                <div class="pull-right">
+                    Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- iCheck -->
+    <script src="../vendors/iCheck/icheck.min.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+</body>
+
+</html>

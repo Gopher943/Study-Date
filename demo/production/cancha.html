@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>学习行为可视化</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>学习行为可视化</span></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- menu profile quick info -->
+
+                    <!-- /menu profile quick info -->
+
+                    <br />
+
+                    <!-- sidebar menu -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <!-- <h3>General</h3> -->
+                            <ul class="nav side-menu">
+                                <li><a><i class="fa fa-home"></i> 课程 <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="index.html">《C程序设计案例教程（基础）》</a></li>
+                                        <li><a href="index2.html">《中国近代史纲要》</a></li>
+                                        <!-- <li><a href="index3.html">Dashboard3</a></li> -->
+                                    </ul>
+                                </li>
+
+
+
+
+                                <li><a><i class="fa fa-table"></i>学习行为统计<span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+                                        <li><a href="tables.html">行为编码</a></li>
+                                        <li><a href="cancha.html">频次矩阵</a></li>
+                                        <li><a href="canchabiao.html">残差表</a></li>
+                                        <li><a href="twotable.html">二阶学习行为序列</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu_section">
+                            <h3>数据分析结果</h3>
+                            <ul class="nav side-menu">
+
+
+                                <li><a><i class="fa fa-edit"></i> C语言程序设计 <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+
+                                        <li><a>初次分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="C1-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C1-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C1-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="C1-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="C1-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="C1-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="CXXLJ1.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>一次滤波分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="C2-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C2-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C2-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="C2-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="C2-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="C2-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="CXXLJ2.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>二次滤波分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="C3-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C3-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="C3-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="C3-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="C3-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="C3-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="CXXLJ3.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+
+                                <li><a><i class="fa fa-sitemap"></i> 中国近代史纲要 <span
+                                            class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu">
+
+                                        <li><a>初次分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="J1-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J1-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J1-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="J1-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="J1-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="J1-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="JXXLJ1.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>一次滤波分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="J2-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J2-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J2-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="J2-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="J2-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="J2-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="JXXLJ2.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a>二次滤波分析<span class="fa fa-chevron-down"></span></a>
+                                            <ul class="nav child_menu">
+                                                <li class="sub_menu"><a href="J3-PJD-report.html">平均度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J3-PJJQD-report.html">平均加权度</a>
+                                                </li>
+                                                <li class="sub_menu"><a href="J3-WLZJ-report.html">网络直径</a>
+                                                </li>
+                                                <li><a href="J3-PJJLXS-report.html">平均聚类系数</a>
+                                                </li>
+                                                <li><a href="J3-TZXLZXD-report.html">特征向量中心度</a>
+                                                </li>
+                                                <li><a href="J3-PJLJCD-report.html">平均路径长度</a>
+                                                </li>
+                                                <li><a href="JXXLJ3.html">学习行为路径</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /sidebar menu -->
+
+                    <!-- /menu footer buttons -->
+                    <div class="sidebar-footer hidden-small">
+                        <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                    <!-- /menu footer buttons -->
+                </div>
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <div class="nav_menu">
+                    <div class="nav toggle">
+                        <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+                    <nav class="nav navbar-nav">
+
+                    </nav>
+                </div>
+            </div>
+            <!-- /top navigation -->
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+                <div class="">
+                    <div class="page-title">
+                        <div class="title_left">
+                            <h3>学习行为统计<small></small></h3>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row" style="display: block;">
+                        <div class="clearfix"></div>
+                        <div class="col-md-12 col-sm-12  ">
+                            <div class="x_panel">
+                                <div class="x_title">
+                                    <h2>《C程序设计案例教程（基础）》<small>频次矩阵</small></h2>
+                                    <ul class="nav navbar-right panel_toolbox">
+                                        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                        </li>
+                                        <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+                                    <div class="table-responsive">
+                                        <table class="table table-striped jambo_table bulk_action">
+                                            <thead>
+                                                <tr class="headings">
+                                                    <th>N</th>
+                                                    <th class="column-title">C1</th>
+                                                    <th class="column-title">C2</th>
+                                                    <th class="column-title">C3</th>
+                                                    <th class="column-title">C4</th>
+                                                    <th class="column-title">C5</th>
+                                                    <th class="column-title">C6</th>
+                                                    <th class="column-title">C7</th>
+                                                    <th class="column-title">P1</th>
+                                                    <th class="column-title">P2</th>
+                                                    <th class="column-title">P4</th>
+                                                    <th class="column-title">P5</th>
+                                                    <th class="column-title">P6</th>
+                                                    <th class="column-title">F1</th>
+                                                    <th class="column-title">F2</th>
+                                                    <th class="column-title">F3</th>
+                                                    <th class="column-title">A1</th>
+                                                    <th class="column-title">A2</th>
+                                                    <th class="column-title">A3</th>
+                                                    <th class="column-title">Totals </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="even pointer">
+                                                    <td>C1</td>
+                                                    <td>23398</td>
+                                                    <td>57</td>
+                                                    <td>222</td>
+                                                    <td>612</td>
+                                                    <td>1754</td>
+                                                    <td>191</td>
+                                                    <td>888</td>
+                                                    <td>70</td>
+                                                    <td>765</td>
+                                                    <td>11</td>
+                                                    <td>39</td>
+                                                    <td>942</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>3</td>
+                                                    <td>88</td>
+                                                    <td>1</td>
+                                                    <td>29041</td>
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td>C2</td>
+                                                    <td>67</td>
+                                                    <td>2933</td>
+                                                    <td>538</td>
+                                                    <td>8703</td>
+                                                    <td>458</td>
+                                                    <td>135</td>
+                                                    <td>2193</td>
+                                                    <td>99</td>
+                                                    <td>1654</td>
+                                                    <td>21</td>
+                                                    <td>50</td>
+                                                    <td>2175</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>2</td>
+                                                    <td>71</td>
+                                                    <td>2749</td>
+                                                    <td>27</td>
+                                                    <td>21875</td>
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td>C3</td>
+                                                    <td>284</td>
+                                                    <td>113</td>
+                                                    <td>16917</td>
+                                                    <td>4462</td>
+                                                    <td>5923</td>
+                                                    <td>17</td>
+                                                    <td>842</td>
+                                                    <td>28</td>
+                                                    <td>569</td>
+                                                    <td>10</td>
+                                                    <td>25</td>
+                                                    <td>513</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>59</td>
+                                                    <td>2</td>
+                                                    <td>29764</td>
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td>C4</td>
+                                                    <td>1250</td>
+                                                    <td>607</td>
+                                                    <td>7682</td>
+                                                    <td>831</td>
+                                                    <td>13349</td>
+                                                    <td>62</td>
+                                                    <td>1252</td>
+                                                    <td>42</td>
+                                                    <td>742</td>
+                                                    <td>8</td>
+                                                    <td>100</td>
+                                                    <td>1737</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>1</td>
+                                                    <td>7</td>
+                                                    <td>149</td>
+                                                    <td>33</td>
+                                                    <td>27852</td>
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td>C5</td>
+                                                    <td>3645</td>
+                                                    <td>345</td>
+                                                    <td>3710</td>
+                                                    <td>11578</td>
+                                                    <td>13509</td>
+                                                    <td>7464</td>
+                                                    <td>4033</td>
+                                                    <td>51</td>
+                                                    <td>948</td>
+                                                    <td>13</td>
+                                                    <td>64</td>
+                                                    <td>1130</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>3</td>
+                                                    <td>1569</td>
+                                                    <td>1399</td>
+                                                    <td>16</td>
+                                                    <td>49477</td>
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td>C6</td>
+                                                    <td>11</td>
+                                                    <td>52</td>
+                                                    <td>16</td>
+                                                    <td>65</td>
+                                                    <td>44</td>
+                                                    <td>49</td>
+                                                    <td>8324</td>
+                                                    <td>5</td>
+                                                    <td>1043</td>
+                                                    <td>3</td>
+                                                    <td>2</td>
+                                                    <td>23</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>39</td>
+                                                    <td>209</td>
+                                                    <td>428</td>
+                                                    <td>150</td>
+                                                    <td>10463</td>
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td>C7</td>
+                                                    <td>14</td>
+                                                    <td>808</td>
+                                                    <td>20</td>
+                                                    <td>82</td>
+                                                    <td>10351</td>
+                                                    <td>3318</td>
+                                                    <td>2691</td>
+                                                    <td>7</td>
+                                                    <td>9554</td>
+                                                    <td>3</td>
+                                                    <td>1</td>
+                                                    <td>15</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>2</td>
+                                                    <td>23</td>
+                                                    <td>34</td>
+                                                    <td>14</td>
+                                                    <td>26937</td>
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td>P1</td>
+                                                    <td>271</td>
+                                                    <td>190</td>
+                                                    <td>422</td>
+                                                    <td>440</td>
+                                                    <td>620</td>
+                                                    <td>30</td>
+                                                    <td>1737</td>
+                                                    <td>560</td>
+                                                    <td>5594</td>
+                                                    <td>199</td>
+                                                    <td>261</td>
+                                                    <td>10562</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>5</td>
+                                                    <td>17</td>
+                                                    <td>44</td>
+                                                    <td>20952</td>
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td>P2</td>
+                                                    <td>25</td>
+                                                    <td>13718</td>
+                                                    <td>95</td>
+                                                    <td>802</td>
+                                                    <td>148</td>
+                                                    <td>124</td>
+                                                    <td>2147</td>
+                                                    <td>3611</td>
+                                                    <td>52949</td>
+                                                    <td>1884</td>
+                                                    <td>1867</td>
+                                                    <td>960</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>2</td>
+                                                    <td>9</td>
+                                                    <td>40</td>
+                                                    <td>19</td>
+                                                    <td>78400</td>
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td>P4</td>
+                                                    <td>55</td>
+                                                    <td>52</td>
+                                                    <td>103</td>
+                                                    <td>163</td>
+                                                    <td>160</td>
+                                                    <td>15</td>
+                                                    <td>659</td>
+                                                    <td>232</td>
+                                                    <td>2295</td>
+                                                    <td>225</td>
+                                                    <td>218</td>
+                                                    <td>4588</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>0</td>
+                                                    <td>2</td>
+                                                    <td>7</td>
+                                                    <td>2</td>
+                                                    <td>8776</td>
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> P5 </td>
+                                                    <td> 5 </td>
+                                                    <td> 1 </td>
+                                                    <td> 4 </td>
+                                                    <td> 16 </td>
+                                                    <td> 25 </td>
+                                                    <td> 1 </td>
+                                                    <td> 24 </td>
+                                                    <td> 174 </td>
+                                                    <td> 1616 </td>
+                                                    <td> 97 </td>
+                                                    <td> 2542 </td>
+                                                    <td> 383 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 1 </td>
+                                                    <td> 0 </td>
+                                                    <td> 4889 </td>
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> P6 </td>
+                                                    <td> 44 </td>
+                                                    <td> 29 </td>
+                                                    <td> 33 </td>
+                                                    <td> 33 </td>
+                                                    <td> 69 </td>
+                                                    <td> 28 </td>
+                                                    <td> 128 </td>
+                                                    <td> 16149 </td>
+                                                    <td> 187 </td>
+                                                    <td> 6353 </td>
+                                                    <td> 15 </td>
+                                                    <td> 707 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 7 </td>
+                                                    <td> 2 </td>
+                                                    <td> 23784 </td>
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> F1 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 2 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 2 </td>
+                                                </tr>
+                                                <tr class="odd pointer">
+                                                    <td> F2 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> F3 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 1 </td>
+                                                    <td> 2 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 46 </td>
+                                                    <td> 0 </td>
+                                                    <td> 4 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 2 </td>
+                                                    <td> 1 </td>
+                                                    <td> 0 </td>
+                                                    <td> 210 </td>
+                                                    <td> 41 </td>
+                                                    <td> 8 </td>
+                                                    <td> 23 </td>
+                                                    <td> 338 </td>
+                                                </tr>
+                                                <tr class="old pointer">
+                                                    <td> A1 </td>
+                                                    <td> 2 </td>
+                                                    <td> 7 </td>
+                                                    <td> 0 </td>
+                                                    <td> 6 </td>
+                                                    <td> 2 </td>
+                                                    <td> 22 </td>
+                                                    <td> 1426 </td>
+                                                    <td> 1 </td>
+                                                    <td> 72 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 6 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 85 </td>
+                                                    <td> 2437 </td>
+                                                    <td> 182 </td>
+                                                    <td> 84 </td>
+                                                    <td> 4332 </td>
+
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> A2 </td>
+                                                    <td> 0 </td>
+                                                    <td> 3098 </td>
+                                                    <td> 1 </td>
+                                                    <td> 26 </td>
+                                                    <td> 3952 </td>
+                                                    <td> 1 </td>
+                                                    <td> 24 </td>
+                                                    <td> 0 </td>
+                                                    <td> 23 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 0 </td>
+                                                    <td> 30 </td>
+                                                    <td> 3270 </td>
+                                                    <td> 1 </td>
+                                                    <td> 10426 </td>
+
+                                                <tr class="old pointer">
+                                                    <td> A3 </td>
+                                                    <td> 4 </td>
+                                                    <td> 6 </td>
+                                                    <td> 9 </td>
+                                                    <td> 21 </td>
+                                                    <td> 25 </td>
+                                                    <td> 9 </td>
+                                                    <td> 183 </td>
+                                                    <td> 2 </td>
+                                                    <td> 17 </td>
+                                                    <td> 0 </td>
+                                                    <td> 1 </td>
+                                                    <td> 34 </td>
+                                                    <td> 1 </td>
+                                                    <td> 0 </td>
+                                                    <td> 8 </td>
+                                                    <td> 29 </td>
+                                                    <td> 31 </td>
+                                                    <td> 283 </td>
+                                                    <td> 663 </td>
+                                                </tr>
+                                                </tr>
+                                                <tr class="even pointer">
+                                                    <td> Totals </td>
+                                                    <td> 29075 </td>
+                                                    <td> 22016 </td>
+                                                    <td> 29773 </td>
+                                                    <td> 27842 </td>
+                                                    <td> 50389 </td>
+                                                    <td> 11466 </td>
+                                                    <td> 26597 </td>
+                                                    <td> 21031 </td>
+                                                    <td> 78032 </td>
+                                                    <td> 8827 </td>
+                                                    <td> 5185 </td>
+                                                    <td> 23777 </td>
+                                                    <td> 2 </td>
+                                                    <td> 0 </td>
+                                                    <td> 354 </td>
+                                                    <td> 4435 </td>
+                                                    <td> 8469 </td>
+                                                    <td> 701 </td>
+                                                    <td> 347971 </td>
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="clearfix"></div>
+                            <div class="col-md-12 col-sm-12  ">
+                                <div class="x_panel">
+                                    <div class="x_title">
+                                        <h2>《中国近代史纲要》<small>频次矩阵</small></h2>
+                                        <ul class="nav navbar-right panel_toolbox">
+                                            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                            </li>
+                                            <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                            </li>
+                                        </ul>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="x_content">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped jambo_table bulk_action">
+                                                <thead>
+                                                    <tr class="headings">
+                                                        <th>N</th>
+                                                        <th class="column-title">C1</th>
+                                                        <th class="column-title">C2</th>
+                                                        <th class="column-title">C3</th>
+                                                        <th class="column-title">C4</th>
+                                                        <th class="column-title">C5</th>
+                                                        <th class="column-title">C6</th>
+                                                        <th class="column-title">C7</th>
+                                                        <th class="column-title">P1</th>
+                                                        <th class="column-title">P2</th>
+                                                        <th class="column-title">P4</th>
+                                                        <th class="column-title">P5</th>
+                                                        <th class="column-title">P6</th>
+                                                        <th class="column-title">F1</th>
+                                                        <th class="column-title">F2</th>
+                                                        <th class="column-title">F3</th>
+                                                        <th class="column-title">A1</th>
+                                                        <th class="column-title">A2</th>
+                                                        <th class="column-title">A3</th>
+                                                        <th class="column-title">Totals </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="even pointer">
+                                                        <td> C1 </td>
+                                                        <td> 242285 </td>
+                                                        <td> 504 </td>
+                                                        <td> 314 </td>
+                                                        <td> 1624 </td>
+                                                        <td> 32775 </td>
+                                                        <td> 1980 </td>
+                                                        <td> 55122 </td>
+                                                        <td> 8 </td>
+                                                        <td> 14 </td>
+                                                        <td> 7 </td>
+                                                        <td> 57 </td>
+                                                        <td> 275 </td>
+                                                        <td> 3 </td>
+                                                        <td> 38 </td>
+                                                        <td> 45 </td>
+                                                        <td> 54 </td>
+                                                        <td> 639 </td>
+                                                        <td> 27 </td>
+                                                        <td> 335771 </td>
+
+                                                    </tr>
+                                                    <tr class="odd pointer">
+                                                        <td>C2</td>
+                                                        <td> 1964 </td>
+                                                        <td> 12542 </td>
+                                                        <td> 1583 </td>
+                                                        <td> 99123 </td>
+                                                        <td> 5257 </td>
+                                                        <td> 1186 </td>
+                                                        <td> 19500 </td>
+                                                        <td> 10 </td>
+                                                        <td> 40 </td>
+                                                        <td> 5 </td>
+                                                        <td> 31 </td>
+                                                        <td> 173 </td>
+                                                        <td> 0 </td>
+                                                        <td> 62 </td>
+                                                        <td> 11 </td>
+                                                        <td> 1685 </td>
+                                                        <td> 24154 </td>
+                                                        <td> 62 </td>
+                                                        <td> 167388 </td>
+                                                    </tr>
+                                                    <tr class="even pointer">
+                                                        <td> C3 </td>
+                                                        <td> 1058 </td>
+                                                        <td> 358 </td>
+                                                        <td> 22150 </td>
+                                                        <td> 10150 </td>
+                                                        <td> 10097 </td>
+                                                        <td> 40 </td>
+                                                        <td> 1761 </td>
+                                                        <td> 1 </td>
+                                                        <td> 4 </td>
+                                                        <td> 1 </td>
+                                                        <td> 18 </td>
+                                                        <td> 32 </td>
+                                                        <td> 0 </td>
+                                                        <td> 0 </td>
+                                                        <td> 1 </td>
+                                                        <td> 12 </td>
+                                                        <td> 42 </td>
+                                                        <td> 5 </td>
+                                                        <td> 45730 </td>
+
+                                                    </tr>
+                                                    <tr class="odd pointer">
+                                                        <td> C4 </td>
+                                                        <td> 26724 </td>
+                                                        <td> 12621 </td>
+                                                        <td> 12757 </td>
+                                                        <td> 4705 </td>
+                                                        <td> 85484 </td>
+                                                        <td> 516 </td>
+                                                        <td> 13751 </td>
+                                                        <td> 19 </td>
+                                                        <td> 57 </td>
+                                                        <td> 9 </td>
+                                                        <td> 108 </td>
+                                                        <td> 231 </td>
+                                                        <td> 2 </td>
+                                                        <td> 111 </td>
+                                                        <td> 30 </td>
+                                                        <td> 145 </td>
+                                                        <td> 1136 </td>
+                                                        <td> 94 </td>
+                                                        <td> 158500 </td>
+
+                                                    </tr>
+                                                    <tr class="even pointer">
+                                                        <td> C5 </td>
+                                                        <td> 62832 </td>
+                                                        <td> 3597 </td>
+                                                        <td> 8727 </td>
+                                                        <td> 36724 </td>
+                                                        <td> 3622 </td>
+                                                        <td> 105786 </td>
+                                                        <td> 61065 </td>
+                                                        <td> 8 </td>
+                                                        <td> 101 </td>
+                                                        <td> 9 </td>
+                                                        <td> 82 </td>
+                                                        <td> 216 </td>
+                                                        <td> 3 </td>
+                                                        <td> 119 </td>
+                                                        <td> 32 </td>
+                                                        <td> 23149 </td>
+                                                        <td> 3565 </td>
+                                                        <td> 100 </td>
+                                                        <td> 309737 </td>
+
+                                                    </tr>
+                                                    <tr class="odd pointer">
+                                                        <td> C6 </td>
+                                                        <td> 737 </td>
+                                                        <td> 1424 </td>
+                                                        <td> 35 </td>
+                                                        <td> 850 </td>
+                                                        <td> 1513 </td>
+                                                        <td> 1656 </td>
+                                                        <td> 160640 </td>
+                                                        <td> 17 </td>
+                                                        <td> 5318 </td>
+                                                        <td> 11 </td>
+                                                        <td> 54 </td>
+                                                        <td> 261 </td>
+                                                        <td> 2 </td>
+                                                        <td> 2269 </td>
+                                                        <td> 23 </td>
+                                                        <td> 2506 </td>
+                                                        <td> 5193 </td>
+                                                        <td> 5495 </td>
+                                                        <td> 188004 </td>
+
+                                                    </tr>
+                                                    <tr class="even pointer">
+                                                        <td> C7 </td>
+                                                        <td> 421 </td>
+                                                        <td> 111049 </td>
+                                                        <td> 94 </td>
+                                                        <td> 5776 </td>
+                                                        <td> 142720 </td>
+                                                        <td> 86639 </td>
+                                                        <td> 84113 </td>
+                                                        <td> 52 </td>
+                                                        <td> 37695 </td>
+                                                        <td> 20 </td>
+                                                        <td> 339 </td>
+                                                        <td> 1767 </td>
+                                                        <td> 8 </td>
+                                                        <td> 378 </td>
+                                                        <td> 10 </td>
+                                                        <td> 371 </td>
+                                                        <td> 739 </td>
+                                                        <td> 635 </td>
+                                                        <td> 472826 </td>
+
+                                                    </tr>
+                                                    <tr class="odd pointer">
+                                                        <td> P1 </td>
+                                                        <td> 74 </td>
+                                                        <td> 17 </td>
+                                                        <td> 8 </td>
+                                                        <td> 39 </td>
+                                                        <td> 174 </td>
+                                                        <td> 148 </td>
+                                                        <td> 11777 </td>
+                                                        <td> 14942 </td>
+                                                        <td> 9782 </td>
+                                                        <td> 4186 </td>
+                                                        <td> 3459 </td>
+                                                        <td> 11738 </td>
+                                                        <td> 16 </td>
+                                                        <td> 17 </td>
+                                                        <td> 27 </td>
+                                                        <td> 20 </td>
+                                                        <td> 116 </td>
+                                                        <td> 29 </td>
+                                                        <td> 56569 </td>
+
+                                                    </tr>
+                                                    <tr class="even pointer">
+                                                        <td> P2 </td>
+                                                        <td> 105 </td>
+                                                        <td> 641 </td>
+                                                        <td> 29 </td>
+                                                        <td> 126 </td>
+                                                        <td> 281 </td>
+                                                        <td> 449 </td>
+                                                        <td> 24640 </td>
+                                                        <td> 20497 </td>
+                                                        <td> 137915 </td>
+                                                        <td> 7442 </td>
+                                                        <td> 17708 </td>
+                                                        <td> 13593 </td>
+                                                        <td> 16 </td>
+                                                        <td> 46 </td>
+                                                        <td> 27 </td>
+                                                        <td> 72 </td>
+                                                        <td> 351 </td>
+                                                        <td> 79 </td>
+                                                        <td> 224017 </td>
+
+                                                    </tr>
+                                                    <tr class="odd pointer">
+                                                        <td> P4 </td>
+                                                        <td> 26 </td>
+                                                        <td> 5 </td>
+                                                        <td> 2 </td>
+                                                        <td> 12 </td>
+                                                        <td> 46 </td>
+                                                        <td> 102 </td>
+                                                        <td> 4896 </td>
+                                                        <td> 2302 </td>
+                                                        <td> 5333 </td>
+                                                        <td> 4335 </td>
+                                                        <td> 2121 </td>
+                                                        <td> 3634 </td>
+                                                        <td> 16 </td>
+                                                        <td> 6 </td>
+                                                        <td> 9 </td>
+                                                        <td> 9 </td>
+                                                        <td> 60 </td>
+                                                        <td> 9 </td>
+                                                        <td> 22923 </td>
+
+                                                    </tr>
+                                                    <tr class="even pointer">
+                                                        <td> P5 </td>
+                                                        <td> 21 </td>
+                                                        <td> 6 </td>
+                                                        <td> 10 </td>
+                                                        <td> 37 </td>
+                                                        <td> 59 </td>
+                                                        <td> 13 </td>
+                                                        <td> 849 </td>
+                                                        <td> 1921 </td>
+                                                        <td> 13207 </td>
+                                                        <td> 1008 </td>
+                                                        <td> 20883 </td>
+                                                        <td> 2982 </td>
+                                                        <td> 1 </td>
+                                                        <td> 10 </td>
+                                                        <td> 3 </td>
+                                                        <td> 8 </td>
+                                                        <td> 27 </td>
+                                                        <td> 3 </td>
+                                                        <td> 41048 </td>
+
+                                                    </tr>
+                                                    <tr class="odd pointer">
+                                                        <td> P6 </td>
+                                                        <td> 11 </td>
+                                                        <td> 10 </td>
+                                                        <td> 1 </td>
+                                                        <td> 4 </td>
+                                                        <td> 14 </td>
+                                                        <td> 110 </td>
+                                                        <td> 426 </td>
+                                                        <td> 25253 </td>
+                                                        <td> 31 </td>
+                                                        <td> 9196 </td>
+                                                        <td> 60 </td>
+                                                        <td> 372 </td>
+                                                        <td> 1 </td>
+                                                        <td> 1 </td>
+                                                        <td> 0 </td>
+                                                        <td> 7 </td>
+                                                        <td> 27 </td>
+                                                        <td> 10 </td>
+                                                        <td> 35534 </td>
+
+                                                    </tr>
+                                                    <tr class="even pointer">
+                                                        <td> F1 </td>
+                                                        <td> 0 </td>
+                                                        <td> 0 </td>
+                                                        <td> 0 </td>
+                                                        <td> 2 </td>
+                                                        <td> 2 </td>
+                                                        <td> 1 </td>
+                                                        <td> 52 </td>
+                                                        <td> 0 </td>
+                                                        <td> 1 </td>
+                                                        <td> 0 </td>
+                                                        <td> 2 </td>
+                                                        <td> 0 </td>
+                                                        <td> 24 </td>
+                                                        <td> 149 </td>
+                                                        <td> 47 </td>
+                                                        <td> 3 </td>
+                                                        <td> 4 </td>
+                                                        <td> 0 </td>
+                                                        <td> 287 </td>
+
+                                                    </tr>
+                                                    <tr class="odd pointer">
+                                                        <td> F2 </td>
+                                                        <td> 65 </td>
+                                                        <td> 19 </td>
+                                                        <td> 8 </td>
+                                                        <td> 51 </td>
+                                                        <td> 161 </td>
+                                                        <td> 32 </td>
+                                                        <td> 2309 </td>
+                                                        <td> 1 </td>
+                                                        <td> 21 </td>
+                                                        <td> 0 </td>
+                                                        <td> 8 </td>
+                                                        <td> 34 </td>
+                                                        <td> 146 </td>
+                                                        <td> 8441 </td>
+                                                        <td> 1667 </td>
+                                                        <td> 843 </td>
+                                                        <td> 1035 </td>
+                                                        <td> 547 </td>
+                                                        <td> 15388 </td>
+
+                                                    </tr>
+                                                    <tr class="even pointer">
+                                                        <td> F3 </td>
+                                                        <td> 10 </td>
+                                                        <td> 1 </td>
+                                                        <td> 3 </td>
+                                                        <td> 4 </td>
+                                                        <td> 22 </td>
+                                                        <td> 6 </td>
+                                                        <td> 133 </td>
+                                                        <td> 0 </td>
+                                                        <td> 2 </td>
+                                                        <td> 0 </td>
+                                                        <td> 1 </td>
+                                                        <td> 4 </td>
+                                                        <td> 53 </td>
+                                                        <td> 1603 </td>
+                                                        <td> 1511 </td>
+                                                        <td> 15 </td>
+                                                        <td> 32 </td>
+                                                        <td> 2 </td>
+                                                        <td> 3402 </td>
+
+                                                    </tr>
+                                                    <tr class="old pointer">
+                                                        <td> A1 </td>
+                                                        <td> 37 </td>
+                                                        <td> 66 </td>
+                                                        <td> 5 </td>
+                                                        <td> 62 </td>
+                                                        <td> 73 </td>
+                                                        <td> 109 </td>
+                                                        <td> 22930 </td>
+                                                        <td> 4 </td>
+                                                        <td> 41 </td>
+                                                        <td> 3 </td>
+                                                        <td> 4 </td>
+                                                        <td> 22 </td>
+                                                        <td> 1 </td>
+                                                        <td> 2695 </td>
+                                                        <td> 7 </td>
+                                                        <td> 36043 </td>
+                                                        <td> 1633 </td>
+                                                        <td> 2478 </td>
+                                                        <td> 66213 </td>
+
+                                                    </tr>
+                                                    <tr class="even pointer">
+                                                        <td> A2 </td>
+                                                        <td> 9 </td>
+                                                        <td> 25002 </td>
+                                                        <td> 7 </td>
+                                                        <td> 48 </td>
+                                                        <td> 29227 </td>
+                                                        <td> 11 </td>
+                                                        <td> 99 </td>
+                                                        <td> 3 </td>
+                                                        <td> 14 </td>
+                                                        <td> 0 </td>
+                                                        <td> 3 </td>
+                                                        <td> 6 </td>
+                                                        <td> 1 </td>
+                                                        <td> 3 </td>
+                                                        <td> 0 </td>
+                                                        <td> 366 </td>
+                                                        <td> 18628 </td>
+                                                        <td> 6 </td>
+                                                        <td> 73433 </td>
+
+                                                    </tr>
+
+                                                    <tr class="old pointer">
+
+                                                        <td> A3 </td>
+                                                        <td> 56 </td>
+                                                        <td> 43 </td>
+                                                        <td> 7 </td>
+                                                        <td> 53 </td>
+                                                        <td> 142 </td>
+                                                        <td> 67 </td>
+                                                        <td> 4532 </td>
+                                                        <td> 4 </td>
+                                                        <td> 140 </td>
+                                                        <td> 3 </td>
+                                                        <td> 14 </td>
+                                                        <td> 43 </td>
+                                                        <td> 0 </td>
+                                                        <td> 724 </td>
+                                                        <td> 9 </td>
+                                                        <td> 772 </td>
+                                                        <td> 763 </td>
+                                                        <td> 9570 </td>
+                                                        <td> 16942 </td>
+                                                    </tr>
+
+                                                    <tr class="even pointer">
+                                                        <td> Totals </td>
+                                                        <td> 336435 </td>
+                                                        <td> 167905 </td>
+                                                        <td> 45740 </td>
+                                                        <td> 159390 </td>
+                                                        <td> 311669 </td>
+                                                        <td> 198851 </td>
+                                                        <td> 468595 </td>
+                                                        <td> 65042 </td>
+                                                        <td> 209716 </td>
+                                                        <td> 26235 </td>
+                                                        <td> 44952 </td>
+                                                        <td> 35383 </td>
+                                                        <td> 293 </td>
+                                                        <td> 16672 </td>
+                                                        <td> 3459 </td>
+                                                        <td> 66080 </td>
+                                                        <td> 58144 </td>
+                                                        <td> 19151 </td>
+                                                        <td> 2233712 </td>
+
+
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /page content -->
+
+            <!-- footer content -->
+            <footer>
+                <div class="pull-right">
+                    Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- iCheck -->
+    <script src="../vendors/iCheck/icheck.min.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+</body>
+
+</html>
